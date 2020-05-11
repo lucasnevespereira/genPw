@@ -20,7 +20,12 @@
   <input type="checkbox" (change)="onChangeUseSymbols()" />
 </div>
 <div>
-  <button [disabled]="!length" (click)="onButtonClick()">
+  <button
+    [disabled]="
+      !(length && (includeLetters || includeNumbers || includeSymbols))
+    "
+    (click)="onButtonClick()"
+  >
     Generate
   </button>
 </div>
