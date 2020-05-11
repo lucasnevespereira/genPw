@@ -1,6 +1,6 @@
 # GenPW
 
-A simple password generator
+A simple password generator : https://gen-pw.now.sh/
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.6.
 
