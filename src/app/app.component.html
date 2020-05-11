@@ -20,10 +20,12 @@
   <input type="checkbox" (change)="onChangeUseSymbols()" />
 </div>
 <div>
-  <button (click)="onButtonClick()">Generate</button>
+  <button [disabled]="!length" (click)="onButtonClick()">
+    Generate
+  </button>
 </div>
 
 <div>
-  <label>Password</label>
+  <label> Your Password</label>
   <input [value]="password" />
 </div>
