@@ -1,0 +1,12 @@
+.container {
+  margin: 50px auto;
+}
+
+@media (max-width: 600px) {
+  .container {
+    margin: 50px 25px;
+  }
+}
+.box {
+  margin-top: 10px;
+}
